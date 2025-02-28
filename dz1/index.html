@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Селектори</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <p>Застосовується до тегів p, вкладених у div, на першому рівні, вага 2</p>
+    </div>
+
+    <p>Теговий селектор, вага 1</p>
+    <p class="class-selector">Класовий селектор, вага 10</p>
+    <p id="id-selector">ID селектор, вага 100</p>
+    <p data-custom="value">Атрибутний селектор, вага 10</p>
+    <div>
+        <span><p class="nested">Вкладений селектор div span p, вага 3</p></span>
+    </div>
+    <div>
+        <p>Дочірній селектор div > p, вага 2</p>
+    </div>
+    <h1 class="class1 class2">Послідовність класів .class1.class2, вага 20</h1>
+    <p id="mix" class="mix" data-type="test">Комбінація #mix.mix[data-type], вага 121</p>
+</body>
+</html>

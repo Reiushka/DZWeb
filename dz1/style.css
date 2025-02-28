@@ -1,0 +1,35 @@
+div > p {
+    background-color: yellow;
+}
+
+p {
+    color: blue;
+}
+
+.class-selector {
+    color: green;
+}
+
+#id-selector {
+    color: red;
+}
+
+[data-custom] {
+    color: purple;
+}
+
+div span p {
+    color: orange;
+}
+
+div > p {
+    background-color: cyan;
+}
+
+.class1.class2 {
+    color: brown;
+}
+
+#mix.mix[data-type] {
+    color: pink;
+}
